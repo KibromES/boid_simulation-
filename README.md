@@ -1,19 +1,25 @@
-# boid_simulation-
+# Boid Simulation Project
 
-
-This project simulates the flocking behavior of birds using a simple set of rules applied to each boid (bird-oid object). The simulation includes predators (referred to as "hoiks") that chase and "eat" boids. As predators consume boids, they grow larger.
+This Python project simulates the flocking behavior in birds, and is simulated as boids, alongside the inclusion of predators (termed "hoiks") that interact with these boids by chasing and consuming them. As the simulation progresses, predators increase in size with each boid they successfully "eat".
 
 ## Features
 
-- Boids that flock together using three basic principles: alignment, cohesion, and separation.
-- Predators that chase the nearest boid and grow in size when they "eat" a boid.
-- Customizable parameters for the speed, size, and vision radius of both boids and predators.
+- **Flocking Simulation:** Implements a simplified model of flocking behavior based on three core rules - alignment, cohesion, and separation, allowing for the organic formation and movement of boid flocks.
+- **Predator Mechanics:** Introduces predators into the ecosystem, which pursue and consume nearby boids, growing in size with each one they eat, providing an additional layer of interaction within the simulation.
+- **Customization:** Offers the ability to adjust various parameters including the speed, size, and vision radius of both boids and predators to experiment with different dynamics within the simulation.
 
 ## Getting Started
 
 ### Prerequisites
 
-The simulation requires Python and Pygame. Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/). You'll also need Pygame, which can be installed using pip:
+Before running the simulation, you will need to have Python installed on your system as well as the Pygame library, which is used for rendering the simulation.
+
+- **Python:** The project is developed with Python. If you do not have Python installed, visit [python.org](https://www.python.org/downloads/) to download and install it.
+- **Pygame:** Pygame is required for running the simulation, which provides the necessary functions for rendering and event handling.
+
+### Installation
+
+To get started with the boid simulation, first ensure that Python is installed on your system. Then, install Pygame using pip, Python's package installer. Open your terminal or command prompt and execute the following command:
 
 ```bash
 pip install pygame
